@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* #main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://img.freepik.com/premium-photo/illustration-batsman-cricket-game-watercolor-background_1271820-455.jpg?semt=ais_hybrid&w=740&q=80);
+background-size: cover;
+} */
+
+#box{
+display:flex;
+justify-content: space-between;
+align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+#box1{
+width: 100px;
+height: 110px;
+background-color: aqua;
+}
+
+#box2{
+width: 100px;
+height: 110px;
+background-color: rgb(3, 11, 11);
+}
+
+#box3{
+width: 100px;
+height: 110px;
+background-color: rgb(3, 255, 95);
+}
+
+button{
+    /* position: absolute; */
+    left: 200px ;
+    width: 200px;
+    height: 30px;
+  
+    margin: 5px auto;
+    padding: 0px;
+    background-color: blue;
+    color: rgb(10, 14, 7);    
+}
+button:hover{
+    background-color: aqua;
+}
+a{
+    font-size: 30px;
+}
+
+/* Pseudo selector */
+
+a:visited{
+    
+    color: black;
+}
+a:link{
+    color: green;
+}
+
+a:active{
+    background-color: black;
+}
+
+a:hover{
+    background-color: blue;
+}
